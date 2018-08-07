@@ -19,10 +19,9 @@ html {
   margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 h1 {
@@ -31,6 +30,7 @@ h1 {
   color: #fff;
   font-size: 240%;
   word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -38,12 +38,18 @@ h2 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
 }
 
 h2:after {
   display: block;
   height: 2px;
-  background-color: #e67e22;
+  background-color: #00adb5;
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -54,10 +60,21 @@ h2:after {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
+  padding: 40px 0 50px 0;
 }
 
 section {
   padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+  text-align: center;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%
 }
 
 /* ---------- Header ---------- */
@@ -110,7 +127,7 @@ header {
 }
 
 .main-nav li a:hover, .main-nav li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #00adb5;
 }
 
 /* ---------- Buttons ---------- */
@@ -125,26 +142,41 @@ header {
 }
 
 .btn-full:link, .btn-full:visited {
-  background-color: #e67e22;
-  border: 1px solid #e67e22;
+  background-color: #00adb5;
+  border: 1px solid #008d93;
   color: #fff;
   margin-right: 15px;
 }
 
 .btn-ghost:link, .btn-ghost:visited {
-  border: 1px solid #e67e22;
-  color: #e67e22
+  border: 1px solid #00adb5;
+  color: #fff
 }
 
 .btn:hover, .btn:active {
-  background-color: #cf6d17;
+  background-color: #008d93;
 }
 
 .btn-full:hover, .btn-full:active {
-  border: 1px solid #cf6d17;
+  border: 1px solid #008d93;
 }
 
 .btn-ghost:hover, .btn-ghost:active {
-  border: 1px solid #e67e22;
+  border: 1px solid #00adb5;
   color: #fff;
 }
+
+/* ---------- Features ---------- */
+
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #00adb5;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #008d93;
+}
+
+/* ---------- Favorite Meals ---------- */

@@ -195,7 +195,7 @@ header {
 }
 
 .highlight {
-  color: #008d93;
+  color: #00adb5;
 }
 
 /* ---------- Favorite Meals ---------- */
@@ -282,6 +282,10 @@ header {
   margin-right: 25px;
 }
 
+.btn-app:link, .btn-app:visited {
+  border: 0
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
@@ -294,8 +298,36 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px #555;
 }
 
 .city-feature {
   margin-bottom: 5px;
+}
+
+.icon-small {
+  margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #008d93;
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+a:link, a:visited {
+  color: #008d93;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #008d93;
+  transition: border-bottom 0.2s;
+  color 0.2s;
+}
+
+a:hover, a:active {
+  color: #00adb5;
+  border-bottom: 1px solid transparent;
 }

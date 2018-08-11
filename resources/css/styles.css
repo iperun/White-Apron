@@ -169,8 +169,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.98);
   box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
 }
 
 .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
@@ -178,11 +179,11 @@ header {
   color: #555;
 }
 
-.main-nav {
+.sticky .main-nav {
   margin-top: 20px;
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 90%;
+  font-size: 96%;
 }
 
 .sticky .logo {

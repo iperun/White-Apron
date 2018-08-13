@@ -164,6 +164,18 @@ header {
   border-bottom: 2px solid #00adb5;
 }
 
+.mobile-nav-icon {
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -604,6 +616,8 @@ footer p {
   text-align: center;
   margin-top: 20px;
 }
+
+/* ----- Animations ----- */
 
 .animated {
   -webkit-animation-duration: 1s;

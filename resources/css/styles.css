@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 html {
   color: #555;
   font-family: 'Lato', sans-serif;

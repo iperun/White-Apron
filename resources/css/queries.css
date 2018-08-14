@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 1200px) {
   .hero-text-box {
-    width: 100%;
+    width: 90%;
     padding: 0 2%;
   }
   .row {
@@ -60,9 +60,6 @@
 /* Small phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
-  html, body {
-    overflow-x: hidden !important;
-  }
   body {
     font-size: 16px;
   }
